@@ -19,6 +19,8 @@ set autochdir " automatically set current directory to directory of last opened 
 filetype plugin indent on " enable file type detection
 set autoindent
 
+set splitright
+
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
