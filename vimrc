@@ -21,6 +21,7 @@ set autoindent
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+set tags=tags;/
 
 set incsearch " incremental search (as string is being typed)
 set hls " highlight search
