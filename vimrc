@@ -19,6 +19,19 @@ set autochdir " automatically set current directory to directory of last opened 
 filetype plugin indent on " enable file type detection
 set autoindent
 
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
+set incsearch " incremental search (as string is being typed)
+set hls " highlight search
+
+" smart case-sensitive search
+set ignorecase
+set smartcase
+" tab completion for files/bufferss
+set wildmode=longest,list
+set wildmenu
+
 set splitright
 
 nnoremap <C-j> <C-w>j
